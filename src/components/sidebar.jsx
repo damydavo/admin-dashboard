@@ -11,7 +11,7 @@ const SideBar = () => {
                             {nav.links.map(link => {
                                 return (
                                     <div key={link.title} className="flex space-x-2 items-center">
-                                        <img className="w-4 h-4 my-4 sm:my-0" src={link.img} alt="icons" />
+                                        <img size={24} className="w-4 h-4 my-4 sm:my-0" src={link.img} alt="icons" />
                                         <li className="hidden md:flex text-white list-none"><p className="text-[14px]">{link.title}</p></li>
 
 

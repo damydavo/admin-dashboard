@@ -1,4 +1,4 @@
-import { home, user, product, order, post, element, note, form, calendar, setting, backup, chart, log } from "../assets";
+import { home, user, product, order, post, element, note, form, calendar, setting, backup, chart, log, userIcon, productIcon, revenue, conversion } from "../assets";
 
 export const navLink = [
     {
@@ -157,7 +157,7 @@ export const topDealUsers = [
 
 export const chartBoxUser = {
     color: "#8884d8",
-    icon: "/userIcon.svg",
+    icon: userIcon,
     title: "Total Users",
     number: "11.238",
     dataKey: "users",
@@ -175,7 +175,7 @@ export const chartBoxUser = {
 
 export const chartBoxProduct = {
     color: "skyblue",
-    icon: "/productIcon.svg",
+    icon: productIcon,
     title: "Total Products",
     number: "238",
     dataKey: "products",
@@ -192,7 +192,7 @@ export const chartBoxProduct = {
 };
 export const chartBoxRevenue = {
     color: "teal",
-    icon: "/revenueIcon.svg",
+    icon: revenue,
     title: "Total Revenue",
     number: "$56.432",
     dataKey: "revenue",
@@ -209,7 +209,7 @@ export const chartBoxRevenue = {
 };
 export const chartBoxConversion = {
     color: "gold",
-    icon: "/conversionIcon.svg",
+    icon: conversion,
     title: "Total Ratio",
     number: "2.6",
     dataKey: "ratio",

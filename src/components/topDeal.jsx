@@ -5,7 +5,7 @@ const TopDeals = () => {
         <div className="flex flex-col space-y-4">
             {topDealUsers.map(topDeal => {
                 return (
-                    <div className="flex justify-between items-center">
+                    <div key={topDeal.id} className="flex justify-between items-center">
                         <div className="flex space-x-2 items-center">
                             <img className="w-[32px] h-[32px] rounded-full object-cover" src={topDeal.img} alt="avatar" />
                             <div className="flex flex-col">

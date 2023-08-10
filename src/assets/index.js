@@ -19,6 +19,10 @@ import setting from './setting.svg'
 import backup from './backup.svg'
 import chart from './chart.svg'
 import log from './log.svg'
+import userIcon from './userIcon.svg'
+import productIcon from './productIcon.svg'
+import revenue from './revenueIcon.svg'
+import conversion from './conversionIcon.svg'
 
 
 
@@ -44,5 +48,9 @@ export {
     setting,
     backup,
     chart,
-    log
+    log,
+    userIcon,
+    productIcon,
+    revenue,
+    conversion,
 }
