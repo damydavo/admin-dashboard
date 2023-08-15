@@ -23,8 +23,8 @@ import userIcon from './userIcon.svg'
 import productIcon from './productIcon.svg'
 import revenue from './revenueIcon.svg'
 import conversion from './conversionIcon.svg'
-
-
+import view from './view.svg'
+import deleteUser from './delete.svg'
 
 
 export {
@@ -53,4 +53,6 @@ export {
     productIcon,
     revenue,
     conversion,
+    view,
+    deleteUser
 }

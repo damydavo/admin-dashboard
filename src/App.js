@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, NavBar, SideBar } from "./pages";
+import { Home, NavBar, SideBar, User } from "./pages";
 
 
 const App = () => {
@@ -9,11 +9,12 @@ const App = () => {
         <NavBar />
 
         <div className=" flex">
-          <SideBar />
 
           <Router>
+            <SideBar />
             <Routes>
               <Route path='/' element={<Home />} />
+              <Route path='/user' element={<User />} />
             </Routes>
           </Router>
 

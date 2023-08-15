@@ -32,6 +32,9 @@
             #6d6d6d -78.47%,
             #11101d 91.61%);
 }
+.MuiDataGrid-toolbarContainer {
+    flex-direction: row-reverse;
+}
 
 @-webkit-keyframes slide-top {
     0% {
@@ -56,4 +59,3 @@
       transform: translateY(0);
   }
 }
-

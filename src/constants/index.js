@@ -7,7 +7,7 @@ export const navLink = [
             {
                 title: "Homepage",
                 img: home,
-                to: "/home"
+                to: "/"
             },
             {
                 title: "Profile",
@@ -23,7 +23,7 @@ export const navLink = [
             {
                 title: "Users",
                 img: user,
-                to: "/users"
+                to: "/user"
             },
             {
                 title: "Products",
@@ -343,9 +343,9 @@ export const userRows = [
         img: "https://images.pexels.com/photos/1758144/pexels-photo-1758144.jpeg?auto=compress&cs=tinysrgb&w=1600",
         lastName: "Gross",
         firstName: "Jose",
-        email: "gobtagbes@yahoo.com",
-        phone: "123 456 789",
-        createdAt: "01.02.2023",
+        email: "damydavo2015@gmail.com",
+        phone: "081 060 483 79",
+        createdAt: "14.08.2023",
     },
     {
         id: 6,

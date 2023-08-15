@@ -1,4 +1,5 @@
 import { navLink } from "../constants";
+import { Link } from "react-router-dom";
 
 const SideBar = () => {
     return (
@@ -8,11 +9,11 @@ const SideBar = () => {
                     <div key={nav.topics} className="flex flex-col">
                         <h4 className="hidden md:flex font-poppins font-medium text-[12px] leading-[27px] text-gray-400 my-1">{nav.topics}</h4>
                         <ul className="flex flex-col space-y-4">
-                            {nav.links.map(link => {
+                            {nav.links.map(klin => {
                                 return (
-                                    <div key={link.title} className="flex space-x-2 items-center">
-                                        <img size={24} className="w-4 h-4 my-4 sm:my-0" src={link.img} alt="icons" />
-                                        <li className="hidden md:flex text-white list-none"><p className="text-[14px]">{link.title}</p></li>
+                                    <div key={klin.title} className="flex space-x-2 items-center">
+                                        <img size={24} className="w-4 h-4 my-4 sm:my-0" src={klin.img} alt="icons" />
+                                        <li className="hidden md:flex text-white list-none"><Link to={klin.to} className="text-[14px]">{klin.title}</Link></li>
 
 
                                     </div>

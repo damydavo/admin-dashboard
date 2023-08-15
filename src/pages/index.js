@@ -2,6 +2,7 @@ import NavBar from "../components/navBar";
 import Home from "./home";
 import SideBar from "../components/sidebar";
 import TopDeals from "../components/topDeal";
+import User from "./user";
 
 
 export {
@@ -9,4 +10,5 @@ export {
     Home,
     SideBar,
     TopDeals,
+    User
 }
