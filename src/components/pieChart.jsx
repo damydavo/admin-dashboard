@@ -23,7 +23,7 @@ const PieChartBox = () => {
                         dataKey="value"
                     >
                         {data.map((item) => (
-                            <Cell key={item.name} fill={item.color} />
+                            <Cell key={item.key} fill={item.color} />
                         ))}
                     </Pie>
                 </PieChart>

@@ -1,12 +1,13 @@
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 
 
-const DataTable = ({ userRows, columns }) => {
+const DataTable = ({ userData, columns }) => {
 
     return (
-        <div className="container bg-white mx-4 md:mx-8 mt-8 w-[300px] md:w-full ">
+        <div className="container bg-white mx-4 md:mx-8 mt-2 w-[300px] md:w-full ">
             <DataGrid
-                rows={userRows}
+                rows={userData}
+                getRowId={(row) => row.id}
                 columns={columns}
                 initialState={{
                     pagination: {
